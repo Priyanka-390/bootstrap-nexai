@@ -71,8 +71,9 @@ p {
   flex-direction: column;
   background-repeat: no-repeat;
   background-position: center;
+  margin-right: 12px;
+  margin-left: 12px;
 }
-
 .bg-what{
   background-image: url("/assets/images/webp/whatimg.webp");
   background-position: center;
