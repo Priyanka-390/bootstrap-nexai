@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  /* ===== font-size ===== */
+  --fs-base: 16px;
+  --fs-lg: 18px;
+  --fs-xl: 20px;
+  --fs-2xl: 24px;
+  --fs-3xl: 32px;
+  --fs-4xl: 40px;
+  --fs-5xl: 60px;
+
+  /* colors */
+  --bs-black: #040404;
+  --bs-green: #02cdcf;
+  --bs-purewhite: #ffffff;
+  --bs-white: #b2b8b9;
+  --bs-textblack: #0b0a0a;
+  --bs-lightblack: #ffffff05;
+}
+
+/* ===== font-sizes ===== */
+.fs-16 {
+  font-size: var(--fs-base);
+}
+.fs-18 {
+  font-size: var(--fs-lg);
+}
+.fs-20 {
+  font-size: var(--fs-xl);
+}
+.fs-24 {
+  font-size: var(--fs-2xl);
+}
+.fs-32 {
+  font-size: var(--fs-3xl);
+}
+.fs-40 {
+  font-size: var(--fs-4xl);
+}
+.fs-60 {
+  font-size: var(--fs-5xl);
+}
+
+/* ===== colors ===== */
+.bg-black {
+  background-color: var(--bs-black);
+}
+.bg-green {
+  background-color: var(--bs-green);
+}
+.bg-white {
+  background: var(--bs-purewhite);
+}
+.col-green {
+  color: var(--bs-green);
+}
+.col-white {
+  color: var(--bs-purewhite);
+}
+.col-lightwhite {
+  color: var(--bs-white);
+}
+.col-black {
+  color: var(--bs-textblack);
+}
+
+/* ===== font-family ===== */
+@font-face {
+  font-family: "recharge";
+  src: url("/assets/fonts/recharge\ bd.ttf");
+}
+
+.ff-poppins {
+  font-family: "Poppins", sans-serif;
+}
+.ff-recharge {
+  font-family: "recharge";
+}
+@media (max-width: 992px) {
+  :root {
+    --fs-base: 16px;
+    --fs-lg: 18px;
+    --fs-xl: 20px;
+    --fs-2xl: 22px;
+    --fs-3xl: 28px;
+    --fs-4xl: 35px;
+    --fs-5xl: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  :root {
+    --fs-base: 16px;
+    --fs-lg: 18px;
+    --fs-xl: 20px;
+    --fs-2xl: 22px;
+    --fs-3xl: 28px;
+    --fs-4xl: 30px;
+    --fs-5xl: 50px;
+  }
+}
+
+@media (max-width: 576px) {
+  :root {
+    --fs-base: 14px;
+    --fs-lg: 16px;
+    --fs-xl: 18px;
+    --fs-2xl: 20px;
+    --fs-3xl: 22px;
+    --fs-4xl: 28px;
+    --fs-5xl: 35px;
+  }
+}
+@media (max-width: 320px) {
+  :root {
+    --fs-4xl: 26px;
+    --fs-5xl: 30px;
+  }
+}
